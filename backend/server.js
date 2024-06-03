@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 8081;
+const port = process.env.PORT;
 
 // Database connection
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -36,5 +36,5 @@ app.get('/products', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('Listening on port 8081');
+  console.log('Listening on port...');
 });
