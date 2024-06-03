@@ -17,7 +17,7 @@ const Products = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://genysis-api.onrender.com/products')
+    axios.get('https://genysis-api.onrender.com/products')
       .then(response => {
         setProducts(response.data);
       })
