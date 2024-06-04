@@ -1,5 +1,7 @@
 # E-commerce-boiler-plate
 
+## [Live Demo ](https://e-commerce-boiler-plate.netlify.app/)
+
  - This is a boiler plate for E-commerce Projects using MERN STACK (Mongo db, Express.js, React.js, Node.js)
  - Database is deployed in Mongodb atlas
  - Backend is deployed in Render.com
