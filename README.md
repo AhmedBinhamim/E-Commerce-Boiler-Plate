@@ -8,3 +8,18 @@
  - Frontend is deplyoed in Netlfiy.app
    
 You may use this repository as an example. Happy Coding.
+
+## Project Setup
+
+### Frontend
+
+- npm install
+- npm run rev (run locally)
+
+## Backend
+
+- cd backend (move to backend folder
+- npm install
+- npm install express cors nodemon
+
+
