@@ -16,7 +16,7 @@ You may use this repository as an example. Happy Coding.
 - npm install
 - npm run rev (run locally)
 
-## Backend
+### Backend
 
 - cd backend (move to backend folder
 - npm install
